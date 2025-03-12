@@ -1,3 +1,3 @@
 ## TypeScript Next.js Movies Api
 
-https://ts-next.js-api.vercell.com
+https://ts-nextjs-api.vercel.app/
