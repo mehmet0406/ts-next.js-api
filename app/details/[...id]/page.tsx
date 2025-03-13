@@ -47,7 +47,6 @@ export default async function Page({ params }: { params: Promise<{ id: string[] 
       <div className='flex flex-col gap-5'>
         <h2 className='text-3xl font-semibold'>{title}</h2>
         <p className='text-gray-600'>{overview}</p>
-
         <p className='flex items-center gap-1'>
           <span>Rating: </span> <FaStar size={16} className='text-yellow-500' /><span>{vote_average}</span>
         </p>

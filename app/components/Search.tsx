@@ -67,7 +67,7 @@ export default function Search() {
                         <div className="text-center py-4">Sonuç yok</div>
                     )}
                     {data?.map((item) => (
-                        <Link href={`/detail/${item.id}`} key={item.id} className='flex gap-5 rounded-b-2xl border-b-3 border-gray-300 p-3 group'>
+                        <Link href={`/details/movie/${item.id}`} key={item.id} className='flex gap-5 rounded-b-2xl border-b-3 border-gray-300 p-3 group'>
                             <Image
                                 src={`${item.backdrop_path === null ? '/images/not-image.png' : `https://image.tmdb.org/t/p/w500/${item.backdrop_path}`}`}
                                 alt=""
