@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 
+
 export default function DetailLayout({
   children,
 }: Readonly<{
@@ -7,7 +8,7 @@ export default function DetailLayout({
 }>) {
   return (
   <div>
-   <Navbar title="Detail Page"/>
+   <Navbar title="Detail Page" detail={true}/>
     <div className="min-h-[calc(100vh-96px)] bg-gradient-to-br from-gray-50 to-blue-100">
     {children}
     </div>

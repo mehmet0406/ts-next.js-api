@@ -15,7 +15,7 @@ export default function Cart({
     release_date,
 }: CartType): React.JSX.Element {
     return (
-        <Link href={`/detail/${id}`} className='bg-white p-4 shadow-md rounded-2xl max-w-80 group cursor-pointer'>
+        <Link href={`${original_name ? `details/tv/${id}` : `details/movie/${id}`}`} className='bg-white p-4 shadow-md rounded-2xl max-w-80 group cursor-pointer'>
             <div className='relative'>
                 <div className='rounded-xl overflow-hidden'>
                     <Image

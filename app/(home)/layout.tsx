@@ -7,7 +7,7 @@ import Search from "../components/Search";
 export default function MainLayout({ children }: { children: ReactNode }) {
     return (
         <div >
-            <Navbar title={"Next.js / TypeScript Movies"}/>
+            <Navbar title={"Next.js / TypeScript Movies"} detail={false}/>
             <main className="min-h-[calc(100vh-96px)] bg-gradient-to-br from-gray-50 to-blue-100 ">
                 <ContentNav />
                <div className="flex justify-center">
